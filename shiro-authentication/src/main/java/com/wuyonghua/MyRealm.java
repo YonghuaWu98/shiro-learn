@@ -1,4 +1,4 @@
-package wuyonghua;
+package com.wuyonghua;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -7,9 +7,9 @@ import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.realm.AuthenticatingRealm;
 
 /**
- * @Description TODO 自定义域reaml
+ * @Description TODO 自定义域realm,底层认证工作是shiro做的
  **/
-class MyRealm extends AuthenticatingRealm {
+public class MyRealm extends AuthenticatingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
@@ -20,13 +20,9 @@ class MyRealm extends AuthenticatingRealm {
         if (principal.equals("wuyonghua")) {
             //通过用户名信息从数据库中查询到该用户信息
             //直接模拟数据
-            String username = "wuyonghua";
-            String password = "wuh";
-            return new SimpleAuthenticationInfo(username, password, this.getName());
+            String password = "wyh";
+            return new SimpleAuthenticationInfo(principal, password, this.getName());
         }
-
-
-
         return null;
     }
 }
