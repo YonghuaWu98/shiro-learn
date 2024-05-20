@@ -11,8 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="encryption-authentication-example" target="8" />
-      <module name="shiro-authentication" target="8" />
+      <module name="encryption-authentication-example" target="1.5" />
+      <module name="shiro-authentication" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
