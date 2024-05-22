@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wuyonghua.mapper.UserMapper">
+
+    <select id="queryAllUser" resultType="User">
+       select * from user;
+    </select>
+    <insert id="insertUser" parameterType="User" >
+        insert into user(username, password, permissions, roles) values(#{username},#{password},#{permissions},#{roles})
+    </insert>
+    <select id="queryUserByName" resultType="User">
+        select * from user where username = #{username}
+    </select>
+    <insert id="updateUser" parameterType="User">
+
+    </insert>
+</mapper>

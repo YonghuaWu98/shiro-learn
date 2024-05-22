@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/encryption-authentication-example/encryption-authentication-example.iml" filepath="$PROJECT_DIR$/encryption-authentication-example/encryption-authentication-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-authentication/shiro-authentication.iml" filepath="$PROJECT_DIR$/shiro-authentication/shiro-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-authorization/shiro-authorization.iml" filepath="$PROJECT_DIR$/shiro-authorization/shiro-authorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shiro-learn.iml" filepath="$PROJECT_DIR$/.idea/shiro-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-demo/springboot-shiro-demo.iml" filepath="$PROJECT_DIR$/springboot-shiro-demo/springboot-shiro-demo.iml" />
     </modules>
   </component>
 </project>

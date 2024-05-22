@@ -8,7 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/shiro-authentication/pom.xml" />
         <option value="$PROJECT_DIR$/encryption-authentication-example/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro-demo/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
